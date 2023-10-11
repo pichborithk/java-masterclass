@@ -5,14 +5,14 @@ public class NumberToWords {
 //        System.out.println(getDigitCount(3));
 //        System.out.println(getDigitCount(-12));
 //        System.out.println(getDigitCount(5200));
-        System.out.println(reverseNumber(-121));
-        System.out.println(reverseNumber(1212));
-        System.out.println(reverseNumber(1234));
-        System.out.println(reverseNumber(100));
-//        numberToWords(123);
-//        numberToWords(1010);
-//        numberToWords(1000);
-//        numberToWords(-12);
+//        System.out.println(reverseNumber(-121));
+//        System.out.println(reverseNumber(1212));
+//        System.out.println(reverseNumber(1234));
+//        System.out.println(reverseNumber(100));
+        numberToWords(123);
+        numberToWords(1010);
+        numberToWords(1000);
+        numberToWords(-12);
     }
 
     public static void numberToWords(int number) {
