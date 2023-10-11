@@ -11,9 +11,9 @@ public class Loops {
 //            System.out.println(interestAmount);
 //        }
         int countPrime = 0;
-        for (int i = 10; countPrime < 3 && i <=50; i++) {
+        for (int i = 10; countPrime < 3 && i <= 50; i++) {
             if (isPrime(i)) {
-                System.out.println("number "+ i + " is a prime number");
+                System.out.println("number " + i + " is a prime number");
                 countPrime++;
             }
         }
@@ -21,13 +21,25 @@ public class Loops {
         int foundNumber = 0;
         int sum = 0;
         for (int i = 1; foundNumber < 5 && i <= 1000; i++) {
-            if (i % 5 == 0 && i % 3== 0) {
+            if (i % 5 == 0 && i % 3 == 0) {
                 System.out.println(i);
                 foundNumber++;
                 sum += i;
             }
         }
         System.out.println(sum);
+
+        int j = 0;
+        while (j < 5) {
+            j++;
+            System.out.println(j);
+        }
+
+        int k = 0;
+        do {
+            k++;
+            System.out.println(k);
+        } while (k < 5);
     }
 
     public static boolean isPrime(int number) {
@@ -47,4 +59,6 @@ public class Loops {
 
         return true;
     }
+
+
 }
