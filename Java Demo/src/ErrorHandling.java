@@ -25,8 +25,30 @@ public class ErrorHandling {
         String name = scanner.nextLine();
         System.out.println("Hi " + name);
         System.out.println("What year were you born? ");
-        int age = year - Integer.parseInt(scanner.nextLine());
+        boolean validDOB = false;
+        int age = 0;
+        do {
+            System.out.println("Enter a year of birth >= " + (year - 125) + " and <= " + year);
+            try {
+                age = checkData(year, scanner.nextLine());
+                validDOB = age < 0 ? false : true;
+            } catch (NumberFormatException badUserData) {
+                System.out.println("Characters not allowed!! Try again.");
+            }
+        } while (!validDOB);
+
 
         System.out.println("So you are " + age + "year old");
+    }
+
+    public static int checkData(int currentYear, String dateOfBirth) {
+        int dob = Integer.parseInt(dateOfBirth);
+        int minimumYear = currentYear - 125;
+
+        if (dob < minimumYear || dob > currentYear) {
+            return -1;
+        }
+
+        return currentYear - dob;
     }
 }
