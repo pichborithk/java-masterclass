@@ -1,4 +1,6 @@
-public class TeenNumberChecker {
+package TeenNumberChecker;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(hasTeen(25, 15, 39));

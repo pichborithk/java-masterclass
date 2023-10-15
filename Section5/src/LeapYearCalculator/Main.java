@@ -1,4 +1,6 @@
-public class LeapYear {
+package LeapYearCalculator;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(isLeapYear(1690));
