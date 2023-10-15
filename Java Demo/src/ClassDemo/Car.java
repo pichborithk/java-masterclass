@@ -1,6 +1,4 @@
-package ClasseseDemo;
-
-import java.lang.reflect.Constructor;
+package ClassDemo;
 
 // "public" is access modifier class, it means any other class in any package can access this class
 // if we put nothing (class Car) is called "package access", means this class is accessible only in
