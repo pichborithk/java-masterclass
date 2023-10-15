@@ -1,4 +1,6 @@
-public class FlourPackProblem {
+package FlourPackProblem;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(canPack(4, 18, 19));

@@ -1,4 +1,6 @@
-public class FirstAndLastDigitSum {
+package FirstAndLastDigitSum;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(sumFirstAndLastDigit(121));

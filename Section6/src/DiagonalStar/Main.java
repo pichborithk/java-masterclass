@@ -1,4 +1,6 @@
-public class DiagonalStar {
+package DiagonalStar;
+
+public class Main {
     public static void main(String[] args) {
         printSquareStar(8);
         printSquareStar(5);

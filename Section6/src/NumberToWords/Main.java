@@ -1,4 +1,6 @@
-public class NumberToWords {
+package NumberToWords;
+
+public class Main {
 
     public static void main(String[] args) {
 //        System.out.println(getDigitCount(0));

@@ -1,4 +1,6 @@
-public class NumberOfDaysInMonth {
+package NumberOfDaysInMonth;
+
+public class Main {
 
     public static void main(String[] args) {
 

@@ -1,4 +1,6 @@
-public class LargestPrime {
+package LargestPrime;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(getLargestPrime(21));

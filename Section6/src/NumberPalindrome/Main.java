@@ -1,4 +1,6 @@
-public class NumberPalindrome {
+package NumberPalindrome;
+
+public class Main {
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
         System.out.println(isPalindrome(12321));

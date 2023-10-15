@@ -1,4 +1,6 @@
-public class PerfectNumber {
+package PerfectNumber;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(isPerfectNumber(6));

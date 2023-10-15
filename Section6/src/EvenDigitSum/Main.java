@@ -1,4 +1,6 @@
-public class EvenDigitSum {
+package EvenDigitSum;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(getEvenDigitSum(123456789));

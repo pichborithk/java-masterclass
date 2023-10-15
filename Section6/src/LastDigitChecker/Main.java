@@ -1,4 +1,6 @@
-public class LastDigitChecker {
+package LastDigitChecker;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println(isValid(10));

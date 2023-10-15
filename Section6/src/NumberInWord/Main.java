@@ -1,4 +1,6 @@
-public class NumberInWord {
+package NumberInWord;
+
+public class Main {
 
     public static void main(String[] args) {
         printNumberInWord(1);

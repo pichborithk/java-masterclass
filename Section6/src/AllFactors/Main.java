@@ -1,4 +1,6 @@
-public class AllFactors {
+package AllFactors;
+
+public class Main {
 
     public static void main(String[] args) {
         printFactors(6);
