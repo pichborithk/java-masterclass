@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class ControlFlow {
 
     public static void main(String[] args) {

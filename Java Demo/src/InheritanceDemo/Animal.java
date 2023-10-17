@@ -2,11 +2,11 @@ package InheritanceDemo;
 
 public class Animal {
 
-    private String type;
+    protected String type;
     private String size;
-    private int weight;
+    private double weight;
 
-    public Animal(String type, String size, int weight) {
+    public Animal(String type, String size, double weight) {
         this.type = type;
         this.size = size;
         this.weight = weight;
@@ -28,4 +28,5 @@ public class Animal {
     public void makeNoise() {
         System.out.println(type + " make some kind of noise");
     }
+
 }
