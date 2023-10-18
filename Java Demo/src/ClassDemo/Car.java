@@ -5,10 +5,10 @@ package ClassDemo;
 // the same package
 public class Car {
 
-//    "private" modifier means no other class can access this member (field or method)
 //    "public" means any other class in any package can access this
-//    when modifier is omitted (int door) meaning this member is accessible only to classes in the same package
 //    "protected" allows classes in the same package, and any subclasses in other packages to have access this
+//    when modifier is omitted (int door) meaning this member is accessible only to classes in the same package
+//    "private" modifier means no other class can access this member (field or method)
     private int doors = 4;
     private String make = "Tesla";
     private String color = "Red";
