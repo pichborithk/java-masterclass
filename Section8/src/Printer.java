@@ -10,8 +10,17 @@ public class Printer {
     }
 
     public int addToner(int tonerAmount) {
-        tonerLevel += tonerAmount;
-        return tonerAmount < 0 || tonerAmount > 100 ? -1 : tonerAmount;
+        if (tonerAmount > 0 && tonerAmount <= 100) {
+            int total = tonerLevel + tonerAmount;
+            if (total > 100) {
+                return -1;
+            }
+
+            tonerLevel = total;
+            return tonerLevel;
+        }
+
+        return -1;
     }
 
     public int printPages(int pages) {
