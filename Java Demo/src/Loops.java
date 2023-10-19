@@ -38,6 +38,14 @@ public class Loops {
             k++;
             System.out.println(k);
         } while (k < 5);
+
+
+//        Enhanced for loop
+        int[] myArray = new int[10];
+        for (int value : myArray) {
+            System.out.print(value + " ");
+        }
+
     }
 
     public static boolean isPrime(int number) {
