@@ -49,6 +49,16 @@ public class ArrayDemo {
         if (Arrays.binarySearch(sArray, "Mark") >= 0) {
             System.out.println("Found Mark in the list");
         }
+
+        int[][] nestedArray = new int[3][3];
+        System.out.println(Arrays.deepToString(nestedArray));
+
+        nestedArray[1] = new int[]{1, 2, 3, 4};
+        System.out.println(Arrays.deepToString(nestedArray));
+
+        int[][] anotherNestedArray = new int[3][];
+        System.out.println(Arrays.deepToString(anotherNestedArray));
+
     }
 
     private static int[] getRandomArray(int len) {
