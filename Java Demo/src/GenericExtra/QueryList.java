@@ -29,7 +29,6 @@ public class QueryList<T extends QueryItem> {
                 matches.add(item);
             }
         }
-
         return matches;
     }
 }
